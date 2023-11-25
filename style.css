@@ -1,0 +1,33 @@
+body {
+  background-color: rebeccapurple;
+}
+.h1 {
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+}
+.h2 {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  color: aliceblue;
+}
+.h3 {
+  color: chartreuse;
+  position: relative;
+  left: 35%;
+  top: 100px;
+}
+.imgs {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+#imgsdiv {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
