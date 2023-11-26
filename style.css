@@ -1,5 +1,7 @@
-body {
+body,
+html {
   background-color: rebeccapurple;
+  overflow: hidden;
 }
 .h1 {
   position: relative;
@@ -28,6 +30,34 @@ body {
 }
 #imgsdiv {
   position: absolute;
-  top: 15%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+@media (max-width: 856px) {
+  body,
+  html {
+    overflow: hidden;
+  }
+  #imgsdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h1,
+  .h2,
+  .h3 {
+    position: relative;
+    left: 10px;
+  }
+}
+
